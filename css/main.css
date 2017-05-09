@@ -1,0 +1,70 @@
+/*---------------------------------------------- 
+0. RESET & CLEARFIX
+------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+.overlaycaption, figure,
+b, u, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,																			
+table, caption, tbody, tfoot, thead, tr, th, td {
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#afLogo {
+	text-align: center;
+	margin: 2em 0;
+}
+
+#afLogo img {
+	width: 40%;
+	animation-duration: 4s;
+}
+
+ul {
+	animation-duration: 4s;
+	margin: 20px 0;
+}
+
+ul li {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+ul li a,
+ul li a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	display: inline-block;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-toggle {
+	float: none;
+	margin-right: 0;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+}
