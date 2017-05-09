@@ -1,0 +1,19 @@
+{
+  "name": "afmua",
+  "version": "1.0.0",
+  "description": "portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dnguye92/afMua.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dnguye92/afMua/issues"
+  },
+  "homepage": "https://github.com/Dnguye92/afMua#readme"
+}

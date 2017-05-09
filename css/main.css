@@ -18,7 +18,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 #afLogo {
 	text-align: center;
-	margin: 2em 0;
+	margin: 2em 0 1em 0;
 }
 
 #afLogo img {
@@ -31,7 +31,7 @@ ul {
 	margin: 20px 0;
 }
 
-ul li {
+.nav ul li {
 	display: inline-block;
 	padding: 0 15px;
 	letter-spacing: 2px;
@@ -64,6 +64,43 @@ nav {
 	border-color: transparent;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav >li > a {
 	color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #FFE349;
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
+footer {
+	bottom: 0;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+}
+
+#socialMedia ul {
+	float: right;
+	margin-right: 4em;
+}
+
+#socialMediaList li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+#socialMediaList li a,
+#socialMediaList li a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#copyRight {
+	display: inline-block;
+	margin: 2em 0 0 4em;
 }
