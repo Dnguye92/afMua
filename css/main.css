@@ -110,14 +110,22 @@ footer {
 	padding: 0 15px;
 }
 
-#socialMediaList li a,
-#socialMediaList li a:hover {
+#socialMediaList li a {
 	text-decoration: none;
 	color: black;
 }
 
+#socialMediaList li a:hover {
+	color: #FFE349;
+	-webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+
 #portfolio {
-	margin-top: 19em;
+	margin-top: 22em;
 }
 
 .thumbnail {
@@ -126,6 +134,10 @@ footer {
 	line-height: 0;
 	border: none;
 	border-radius: 0;
+}
+
+.mfp-image-holder .mfp-close {
+	color: #F1EE31;
 }
 
 /*MEDIA QUERIES*/
