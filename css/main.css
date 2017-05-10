@@ -84,9 +84,16 @@ footer {
 	width: 100%;
 }
 
-#socialMedia ul {
+#copyRight {
+	float: left;
+	padding: 2em 0 0 3em;
+	display: inline-block;
+}
+
+#socialMediaList {
+	display: inline-block;
 	float: right;
-	margin-right: 4em;
+	padding-right: 2em;
 }
 
 #socialMediaList li {
@@ -100,7 +107,4 @@ footer {
 	color: black;
 }
 
-#copyRight {
-	display: inline-block;
-	margin: 2em 0 0 4em;
-}
+
