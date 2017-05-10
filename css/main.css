@@ -16,19 +16,27 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
+.thumbnail {
+	display: inline-block;
+}
+
 #afLogo {
 	text-align: center;
 	margin: 2em 0 1em 0;
 }
 
 #afLogo img {
-	width: 50%;
+	width: 40%;
 	animation-duration: 4s;
 }
 
 ul {
 	animation-duration: 4s;
 	margin: 20px 0;
+}
+
+.afNav {
+	background-color: white;
 }
 
 .nav ul li {
@@ -82,6 +90,7 @@ footer {
 	position: fixed;
 	z-index: 2;
 	width: 100%;
+	background-color: white;
 }
 
 #copyRight {
@@ -107,4 +116,44 @@ footer {
 	color: black;
 }
 
+#portfolio {
+	margin-top: 19em;
+}
+
+.thumbnail {
+	display: inline-block;
+	margin-bottom: 0;
+	line-height: 0;
+	border: none;
+	border-radius: 0;
+}
+
+/*MEDIA QUERIES*/
+@media(max-width: 736px) {
+	#portfolio {
+		margin-top: 13em;
+	}
+}
+
+@media(max-width: 414px) {
+	#socialMediaList li {
+		padding: 0 8px;
+	}
+	#socialMediaList {
+		padding-right: 1em;
+		margin-top: 2em;
+	}
+	#copyRight {
+		padding: 2em 0 0 2em;
+	}
+	#copyRight p {
+		margin: 0 0 0;
+	}
+	.fa {
+		font-size: 16px;
+	}
+	#afLogo img {
+		width: 60%;
+	}
+}
 
