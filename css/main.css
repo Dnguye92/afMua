@@ -13,13 +13,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	padding: 0;
 	border: 0;
 	outline: 0;
-	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Josefin Sans', sans-serif;
 	/*font-family: 'Sorts Mill Goudy', serif;*/
 	/*font-family: 'Arapey', serif;*/
 	/*font-family: 'Quattrocento', serif;*/
 	/*font-family: 'Cinzel', serif;*/
 	/*font-family: 'Kaushan Script', cursive;*/
-	font-family: 'Dancing Script', cursive;
+	/*font-family: 'Dancing Script', cursive;*/
 }
 
 .thumbnail {
@@ -89,6 +89,10 @@ nav {
     -ms-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
 }
 
 footer {
@@ -172,6 +176,33 @@ footer {
 	}
 	#afLogo img {
 		width: 60%;
+	}
+	#afLogo {
+		margin: 1em 0 1em 0;
+	}
+}
+
+@media(max-width: 375px) {
+	#copyRight p {
+		font-size: 12px;
+	}
+	#afLogo img {
+		width: 65%;
+	}
+}
+
+@media(max-width: 320px) {
+	#copyRight {
+		padding: 2em 0 0 1em;
+	}
+	#copyRight p {
+		font-size: 11px;
+	}
+	#portfolio {
+		margin-top: 11em;
+	}
+	#socialMediaList {
+		padding-right: 0.5em;
 	}
 }
 
