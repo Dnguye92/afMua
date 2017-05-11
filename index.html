@@ -7,12 +7,6 @@
 	<title>Aurora Faraon | Makeup Artist</title>
 	<link rel="icon" href="img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -46,8 +40,8 @@
 					    <div class="navbar-collapse collapse animated fadeIn" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height: 1px">
 					      <ul class="nav navbar-nav">
 					        <li><a href="#">HOME</a></li>
-					        <li><a href="#">PORTFOLIO</a></li>
-					        <li><a href="#">BIOGRAPHY</a></li>
+					        <!-- <li><a href="#">PORTFOLIO</a></li> -->
+					        <li><a data-scroll href="#bio">BIOGRAPHY</a></li>
 					        <li><a href="#">SERVICES</a></li>
 					        <li><a href="#">CONTACT</a></li>
 					      </ul>   
@@ -59,7 +53,31 @@
 	</div>
 
 	<section id="portfolio">
-		<div class="container">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="xs-col-12 text-center">
+					<img src="img/edited/free19.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free7.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free21.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free14.jpg" class="galleryItem thumbnail">
+				</div>
+			</div>
+			<div class="row">
+				<div class="xs-col-12 text-center">
+					<img src="img/edited/free19.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free7.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free21.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free14.jpg" class="galleryItem thumbnail">
+				</div>
+			</div>
+			<div class="row">
+				<div class="xs-col-12 text-center">
+					<img src="img/edited/free19.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free7.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free21.jpg" class="galleryItem thumbnail">
+					<img src="img/edited/free14.jpg" class="galleryItem thumbnail">
+				</div>
+			</div>
 			<div class="row">
 				<div class="xs-col-12 text-center">
 					<img src="img/edited/free19.jpg" class="galleryItem thumbnail">
@@ -71,8 +89,27 @@
 		</div>
 	</section>
 
+	<section id="bio">
+		<div class="container">
+			<div class="row" id="bioRow">
+				<div class="col-xs-6 animated fadeInLeft">
+					<img id="bioPic" class="img-responsive" src="img/bioPic.jpg">
+				</div>
+				<div class="col-xs-6 animated fadeInRight">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-	<footer>
+
+	<footer id="footer">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-6" id="copyRight">
@@ -80,6 +117,7 @@
 				</div>
 				<div class="col-xs-6">
 					<ul id="socialMediaList">
+						<li><a data-scroll href="#afLogo">[Top]</a></li>
 						<li><a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
 						<li><a href="https://instagram.com/aurorakarla" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/aurora-faraon-954b0066/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
@@ -89,14 +127,16 @@
 		</div>
 	</footer>
 
-	
-
-
-
-
 <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+<script type="text/javascript">
+	smoothScroll.init({
+		selector: '[data-scroll]',
+		speed: 1000
+	});
+</script>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
