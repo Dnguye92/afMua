@@ -16,8 +16,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.thumbnail {
-	display: inline-block;
+hr {
+	width: 81%;
+	border-color: black;
+	margin-top: 50px;
 }
 
 #afLogo {
@@ -97,6 +99,11 @@ footer {
 	background-color: white;
 }
 
+footer a:nth-child(1) {
+	color: black;
+	text-decoration: none;
+}
+
 #copyRight {
 	float: left;
 	padding: 2em 0 0 3em;
@@ -129,7 +136,11 @@ footer {
 }
 
 #portfolio {
-	margin-top: 22em;
+	margin-top: 18em;
+}
+
+#portfolio img {
+	animation-duration: 4s;
 }
 
 .thumbnail {
@@ -149,17 +160,39 @@ footer {
 }
 
 #bio p {
-	padding-top: 2em;
+	/*padding-top: 2em;*/
 }
 
 #bioRow {
 	padding: 0 4em;
 }
 
+#bioPic {
+	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+}
+
+#bioPic:hover {
+	opacity: 0.7;
+	/*transition-duration: 0.8s;*/
+}
+
+
 /*MEDIA QUERIES*/
 @media(max-width: 736px) {
 	#portfolio {
 		margin-top: 13em;
+	}
+	#bioP {
+		width: 100%;
+	}
+	#afLogo {
+		margin: 1em 0;
+	}
+	#bio .col-xs-6:nth-child(1) {
+		width: 100%;
 	}
 }
 
@@ -185,6 +218,9 @@ footer {
 	}
 	#afLogo {
 		margin: 1em 0 1em 0;
+	}
+	#bio p {
+		margin-top: 50px;
 	}
 }
 
@@ -212,6 +248,10 @@ footer {
 	}
 	#socialMediaList {
 		padding-right: 0.5em;
+	}
+	#bio p {
+		display: block;
+		padding-top: 0;
 	}
 }
 
