@@ -136,7 +136,7 @@ footer a:nth-child(1) {
 }
 
 #portfolio {
-	margin-top: 18em;
+	margin-top: 20%;
 }
 
 #portfolio img {
@@ -159,6 +159,10 @@ footer a:nth-child(1) {
 	margin: 4em auto 6em auto;
 }
 
+#bio h1 {
+	margin-bottom: 2em;
+}
+
 #bio p {
 	/*padding-top: 2em;*/
 }
@@ -179,6 +183,13 @@ footer a:nth-child(1) {
 	/*transition-duration: 0.8s;*/
 }
 
+#services {
+	margin: 4em auto 6em auto;
+}
+
+#contact {
+	margin: 4em auto 6em auto;
+}
 
 /*MEDIA QUERIES*/
 @media(max-width: 736px) {
