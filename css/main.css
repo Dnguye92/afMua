@@ -242,6 +242,9 @@ footer a:nth-child(1) {
 	#afLogo img {
 		width: 65%;
 	}
+	#portfolio .galleryItem {
+		width: 40%;
+	}
 }
 
 @media(max-width: 360px) {
