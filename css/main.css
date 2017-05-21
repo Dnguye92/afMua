@@ -24,7 +24,7 @@ hr {
 
 #afLogo {
 	text-align: center;
-	margin: 2em 0 1em 0;
+	margin: 1em 0 1em 0;
 }
 
 #afLogo img {
@@ -34,7 +34,7 @@ hr {
 
 ul {
 	animation-duration: 4s;
-	margin: 20px 0;
+	margin: 25px 0;
 }
 
 .afNav {
@@ -193,6 +193,22 @@ footer a:nth-child(1) {
 
 #contact {
 	margin: 4em auto 6em auto;
+}
+
+#services ul {
+	margin-left: 7.2em;
+}
+
+#services h4 {
+	/*margin-left: 5.6em;*/
+}
+
+#services li {
+	font-size: 18px;
+}
+
+#services h1 {
+	margin-bottom: 2em;
 }
 
 /*MEDIA QUERIES*/
