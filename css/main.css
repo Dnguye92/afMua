@@ -191,6 +191,10 @@ footer a:nth-child(1) {
 	margin: 4em auto 6em auto;
 }
 
+#servicesRow {
+	padding: 0 4em;
+}
+
 #contact {
 	margin: 4em auto 6em auto;
 }
@@ -200,7 +204,8 @@ footer a:nth-child(1) {
 }
 
 #services h4 {
-	/*margin-left: 5.6em;*/
+	margin-left: 5.6em;
+	width: 80%;
 }
 
 #services li {
